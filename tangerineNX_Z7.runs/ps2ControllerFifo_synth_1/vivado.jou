@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Mar 29 09:18:50 2025
+# Process ID: 17792
+# Current directory: C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/ps2ControllerFifo_synth_1
+# Command line: vivado.exe -log ps2ControllerFifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ps2ControllerFifo.tcl
+# Log file: C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/ps2ControllerFifo_synth_1/ps2ControllerFifo.vds
+# Journal file: C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/ps2ControllerFifo_synth_1\vivado.jou
+# Running On: DESKTOP-T3E75FC, OS: Windows, CPU Frequency: 4491 MHz, CPU Physical cores: 32, Host memory: 33513 MB
+#-----------------------------------------------------------
+source ps2ControllerFifo.tcl -notrace

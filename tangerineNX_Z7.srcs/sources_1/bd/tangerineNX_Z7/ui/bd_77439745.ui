@@ -1,0 +1,127 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.36484",
+   "Default View_TopLeft":"2505,1039",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 3530 -y 650 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 3530 -y 670 -defaultsOSRD
+preplace port port-id_plKey -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port port-id_plLed -pg 1 -lvl 6 -x 3530 -y 20 -defaultsOSRD
+preplace port port-id_plClk -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port port-id_hdmiClkP -pg 1 -lvl 6 -x 3530 -y 370 -defaultsOSRD
+preplace port port-id_hdmiClkN -pg 1 -lvl 6 -x 3530 -y 390 -defaultsOSRD
+preplace port port-id_ps2aClock -pg 1 -lvl 6 -x 3530 -y 1000 -defaultsOSRD
+preplace port port-id_ps2aData -pg 1 -lvl 6 -x 3530 -y 1020 -defaultsOSRD
+preplace port port-id_ps2bClock -pg 1 -lvl 6 -x 3530 -y 1040 -defaultsOSRD
+preplace port port-id_ps2bData -pg 1 -lvl 6 -x 3530 -y 1060 -defaultsOSRD
+preplace port port-id_i2sSClk -pg 1 -lvl 6 -x 3530 -y 1260 -defaultsOSRD
+preplace port port-id_i2sBClk -pg 1 -lvl 6 -x 3530 -y 1280 -defaultsOSRD
+preplace port port-id_i2sLRCk -pg 1 -lvl 6 -x 3530 -y 1300 -defaultsOSRD
+preplace port port-id_i2sDOut -pg 1 -lvl 6 -x 3530 -y 1320 -defaultsOSRD
+preplace portBus hdmiDP -pg 1 -lvl 6 -x 3530 -y 410 -defaultsOSRD
+preplace portBus hdmiDN -pg 1 -lvl 6 -x 3530 -y 430 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 3270 -y 700 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 200 -y 640 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 640 -y 872 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 2440 -y 720 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -x 2840 -y 440 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 640 -y 370 -defaultsOSRD
+preplace inst hdmiOut_0 -pg 1 -lvl 5 -x 3270 -y 400 -defaultsOSRD
+preplace inst vga_0 -pg 1 -lvl 3 -x 2440 -y 150 -defaultsOSRD
+preplace inst ps2Host_0 -pg 1 -lvl 5 -x 3270 -y 1030 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 4 -x 2840 -y 680 -defaultsOSRD
+preplace inst vgaDMA_0 -pg 1 -lvl 3 -x 2440 -y 520 -defaultsOSRD
+preplace inst rootRegs_0 -pg 1 -lvl 3 -x 2440 -y 920 -defaultsOSRD
+preplace inst is2Controller_0 -pg 1 -lvl 5 -x 3270 -y 1290 -defaultsOSRD
+preplace inst axi_interconnect_0|xbar -pg 1 -lvl 2 -x 1290 -y 1092 -defaultsOSRD
+preplace inst axi_interconnect_0|s00_couplers -pg 1 -lvl 1 -x 770 -y 882 -defaultsOSRD
+preplace inst axi_interconnect_0|m00_couplers -pg 1 -lvl 3 -x 1670 -y 782 -defaultsOSRD
+preplace inst axi_interconnect_0|m01_couplers -pg 1 -lvl 3 -x 1670 -y 952 -defaultsOSRD
+preplace inst axi_interconnect_0|m02_couplers -pg 1 -lvl 3 -x 1670 -y 1122 -defaultsOSRD
+preplace inst axi_interconnect_0|m03_couplers -pg 1 -lvl 3 -x 1670 -y 1292 -defaultsOSRD
+preplace inst axi_interconnect_0|m04_couplers -pg 1 -lvl 3 -x 1670 -y 1462 -defaultsOSRD
+preplace inst axi_interconnect_0|m05_couplers -pg 1 -lvl 3 -x 1670 -y 1642 -defaultsOSRD
+preplace inst axi_interconnect_0|s00_couplers|auto_pc -pg 1 -lvl 1 -x 880 -y 892 -defaultsOSRD
+preplace inst axi_interconnect_0|m05_couplers|auto_pc -pg 1 -lvl 1 -x 1780 -y 1652 -defaultsOSRD
+preplace netloc ARESETN_1 1 1 4 390 652 2200 820 2690 820 2990
+preplace netloc Net 1 5 1 NJ 1000
+preplace netloc Net1 1 5 1 NJ 1020
+preplace netloc Net2 1 5 1 NJ 1040
+preplace netloc Net3 1 5 1 NJ 1060
+preplace netloc clk_wiz_0_clk64 1 2 3 2150 330 NJ 330 NJ
+preplace netloc clk_wiz_0_clk320 1 2 3 2170 350 NJ 350 NJ
+preplace netloc clk_wiz_0_clk320ps 1 2 3 2170 370 NJ 370 NJ
+preplace netloc clk_wiz_0_locked 1 2 3 2180 380 2670J 310 NJ
+preplace netloc hdmiOut_0_hdmiClkN 1 5 1 NJ 390
+preplace netloc hdmiOut_0_hdmiClkP 1 5 1 NJ 370
+preplace netloc hdmiOut_0_hdmiDN 1 5 1 NJ 430
+preplace netloc hdmiOut_0_hdmiDP 1 5 1 NJ 410
+preplace netloc plClk_1 1 0 2 NJ 380 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 30 540 380 540 2190 830 2680 830 3040 810 3500
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 360 380 270 2180J 310 2640J 240 NJ 240 3510
+preplace netloc vgaDMA_0_gfxFbRamDOut 1 2 2 2260 320 2620
+preplace netloc vga_0_gfxFbRamA 1 2 2 2230 -10 2630
+preplace netloc vga_0_gfxFbRamClock 1 2 2 2240 0 2620
+preplace netloc vga_0_vgaBlue 1 3 2 NJ 180 3020
+preplace netloc vga_0_vgaDE 1 3 2 2620J 250 2990
+preplace netloc vga_0_vgaDMARequest 1 2 2 2260 800 2630
+preplace netloc vga_0_vgaGreen 1 3 2 NJ 160 3030
+preplace netloc vga_0_vgaHS 1 3 2 NJ 200 3010
+preplace netloc vga_0_vgaRed 1 3 2 NJ 140 3040
+preplace netloc vga_0_vgaVS 1 2 3 2250 810 2660 510 3040
+preplace netloc is2Controller_0_i2sSClk 1 5 1 N 1260
+preplace netloc is2Controller_0_i2sBClk 1 5 1 N 1280
+preplace netloc is2Controller_0_i2sLRCk 1 5 1 N 1300
+preplace netloc is2Controller_0_i2sDOut 1 5 1 N 1320
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 2670 430n
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 2210 700n
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 2160 110n
+preplace netloc axi_interconnect_0_M02_AXI 1 2 3 2260 1010 NJ 1010 NJ
+preplace netloc axi_interconnect_0_M03_AXI 1 2 1 2230 890n
+preplace netloc axi_interconnect_0_M04_AXI 1 2 1 2220 440n
+preplace netloc axi_interconnect_1_M00_AXI 1 4 1 3040 680n
+preplace netloc processing_system7_0_DDR 1 5 1 NJ 650
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ 670
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 400 280 2170J 300 2650J 260 3000J 250 3500
+preplace netloc vgaDMA_0_m00_axi 1 3 1 2640 510n
+preplace netloc vga_0_BLOCK_RAM1 1 3 1 2690 60n
+preplace netloc axi_interconnect_0_M05_AXI 1 2 3 2260 1270 NJ 1270 NJ
+preplace netloc axi_interconnect_0|axi_interconnect_0_ACLK_net 1 0 3 580 782 1140 872 1460
+preplace netloc axi_interconnect_0|axi_interconnect_0_ARESETN_net 1 0 3 570 992 1150 982 1470
+preplace netloc axi_interconnect_0|axi_interconnect_0_to_s00_couplers 1 0 1 N 872
+preplace netloc axi_interconnect_0|s00_couplers_to_xbar 1 1 1 1130 892n
+preplace netloc axi_interconnect_0|m00_couplers_to_axi_interconnect_0 1 3 1 N 782
+preplace netloc axi_interconnect_0|xbar_to_m00_couplers 1 2 1 1430 742n
+preplace netloc axi_interconnect_0|m01_couplers_to_axi_interconnect_0 1 3 1 N 952
+preplace netloc axi_interconnect_0|xbar_to_m01_couplers 1 2 1 1480 912n
+preplace netloc axi_interconnect_0|m02_couplers_to_axi_interconnect_0 1 3 1 N 1122
+preplace netloc axi_interconnect_0|xbar_to_m02_couplers 1 2 1 N 1082
+preplace netloc axi_interconnect_0|m03_couplers_to_axi_interconnect_0 1 3 1 N 1292
+preplace netloc axi_interconnect_0|xbar_to_m03_couplers 1 2 1 1440 1102n
+preplace netloc axi_interconnect_0|m04_couplers_to_axi_interconnect_0 1 3 1 N 1462
+preplace netloc axi_interconnect_0|xbar_to_m04_couplers 1 2 1 1450 1122n
+preplace netloc axi_interconnect_0|m05_couplers_to_axi_interconnect_0 1 3 1 N 1652
+preplace netloc axi_interconnect_0|xbar_to_m05_couplers 1 2 1 1430 1142n
+preplace netloc axi_interconnect_0|s00_couplers|S_ACLK_1 1 0 1 720 892n
+preplace netloc axi_interconnect_0|s00_couplers|S_ARESETN_1 1 0 1 730 912n
+preplace netloc axi_interconnect_0|s00_couplers|s00_couplers_to_auto_pc 1 0 1 N 872
+preplace netloc axi_interconnect_0|s00_couplers|auto_pc_to_s00_couplers 1 1 1 N 892
+preplace netloc axi_interconnect_0|m05_couplers|S_ACLK_1 1 0 1 1620 1652n
+preplace netloc axi_interconnect_0|m05_couplers|S_ARESETN_1 1 0 1 1630 1672n
+preplace netloc axi_interconnect_0|m05_couplers|m05_couplers_to_auto_pc 1 0 1 N 1632
+preplace netloc axi_interconnect_0|m05_couplers|auto_pc_to_m05_couplers 1 1 1 N 1652
+levelinfo -pg 1 0 200 640 2440 2840 3270 3530
+levelinfo -hier axi_interconnect_0 * 770 1290 1670 *
+levelinfo -hier axi_interconnect_0|s00_couplers * 880 *
+levelinfo -hier axi_interconnect_0|m05_couplers * 1780 *
+pagesize -pg 1 -db -bbox -sgen -90 -20 3660 1810
+pagesize -hier axi_interconnect_0 -db -bbox -sgen 520 682 2060 1752
+pagesize -hier axi_interconnect_0|s00_couplers -db -bbox -sgen 690 812 1060 972
+pagesize -hier axi_interconnect_0|m05_couplers -db -bbox -sgen 1590 1572 1960 1732
+"
+}
+{
+   "da_ps7_cnt":"1"
+}

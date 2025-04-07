@@ -1,0 +1,897 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Apr  6 12:00:48 2025
+# Process ID: 5456
+# Current directory: C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1
+# Command line: vivado.exe -log tangerineNX_Z7_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tangerineNX_Z7_wrapper.tcl -notrace
+# Log file: C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper.vdi
+# Journal file: C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1\vivado.jou
+# Running On: DESKTOP-T3E75FC, OS: Windows, CPU Frequency: 4491 MHz, CPU Physical cores: 32, Host memory: 33513 MB
+#-----------------------------------------------------------
+source tangerineNX_Z7_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2023.1/Vivado/2023.1/data/ip'.
+Command: link_design -top tangerineNX_Z7_wrapper -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/i2sControllerFifo/i2sControllerFifo.dcp' for cell 'tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/ps2ControllerFifo/ps2ControllerFifo.dcp' for cell 'tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/gfxFbRam/gfxFbRam.dcp' for cell 'tangerineNX_Z7_i/vgaDMA_0/U0/gfxFbRamInst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/fontPROM/fontPROM.dcp' for cell 'tangerineNX_Z7_i/vga_0/U0/fontPromInst'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.133 . Memory (MB): peak = 2010.000 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 381 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_processing_system7_0_0/tangerineNX_Z7_processing_system7_0_0.xdc] for cell 'tangerineNX_Z7_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_processing_system7_0_0/tangerineNX_Z7_processing_system7_0_0.xdc] for cell 'tangerineNX_Z7_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_proc_sys_reset_0_0/tangerineNX_Z7_proc_sys_reset_0_0_board.xdc] for cell 'tangerineNX_Z7_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_proc_sys_reset_0_0/tangerineNX_Z7_proc_sys_reset_0_0_board.xdc] for cell 'tangerineNX_Z7_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_proc_sys_reset_0_0/tangerineNX_Z7_proc_sys_reset_0_0.xdc] for cell 'tangerineNX_Z7_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_proc_sys_reset_0_0/tangerineNX_Z7_proc_sys_reset_0_0.xdc] for cell 'tangerineNX_Z7_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_clk_wiz_0_0/tangerineNX_Z7_clk_wiz_0_0_board.xdc] for cell 'tangerineNX_Z7_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_clk_wiz_0_0/tangerineNX_Z7_clk_wiz_0_0_board.xdc] for cell 'tangerineNX_Z7_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_clk_wiz_0_0/tangerineNX_Z7_clk_wiz_0_0.xdc] for cell 'tangerineNX_Z7_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_clk_wiz_0_0/tangerineNX_Z7_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_clk_wiz_0_0/tangerineNX_Z7_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/bd/tangerineNX_Z7/ip/tangerineNX_Z7_clk_wiz_0_0/tangerineNX_Z7_clk_wiz_0_0.xdc] for cell 'tangerineNX_Z7_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/ps2ControllerFifo/ps2ControllerFifo.xdc] for cell 'tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst/U0'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/ps2ControllerFifo/ps2ControllerFifo.xdc] for cell 'tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst/U0'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/ps2ControllerFifo/ps2ControllerFifo.xdc] for cell 'tangerineNX_Z7_i/ps2Host_0/U0/ps2bFifoInst/U0'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/ps2ControllerFifo/ps2ControllerFifo.xdc] for cell 'tangerineNX_Z7_i/ps2Host_0/U0/ps2bFifoInst/U0'
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/i2sControllerFifo/i2sControllerFifo.xdc] for cell 'tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst/U0'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/i2sControllerFifo/i2sControllerFifo.xdc] for cell 'tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst/U0'
+Parsing XDC File [C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.srcs/constrs_1/new/tangerineNX_Z7.xdc]
+WARNING: [Constraints 18-619] A clock with name 'plClk' already exists, overwriting the previous clock with the same name. [C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.srcs/constrs_1/new/tangerineNX_Z7.xdc:1]
+Finished Parsing XDC File [C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.srcs/constrs_1/new/tangerineNX_Z7.xdc]
+Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/i2sControllerFifo/i2sControllerFifo_clocks.xdc] for cell 'tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst/U0'
+Finished Parsing XDC File [c:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.gen/sources_1/ip/i2sControllerFifo/i2sControllerFifo_clocks.xdc] for cell 'tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst/U0'
+INFO: [Project 1-1714] 11 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+Generating merged BMM file for the design top 'tangerineNX_Z7_wrapper'...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2726.676 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+  OBUFDS => OBUFDS: 4 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+
+17 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2726.676 ; gain = 1188.324
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.547 . Memory (MB): peak = 2726.676 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 26a4ce41e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.213 . Memory (MB): peak = 2726.676 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1566] Pulled 4 inverters resulting in an inversion of 17 pins
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: eb63b34e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 3040.590 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 5 cells and removed 66 cells
+INFO: [Opt 31-1021] In phase Retarget, 50 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+Phase 2 Constant propagation | Checksum: 1b3c142d6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.299 . Memory (MB): peak = 3040.590 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 24 cells and removed 51 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 49 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 10681bd79
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.446 . Memory (MB): peak = 3040.590 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 4 cells
+INFO: [Opt 31-1021] In phase Sweep, 190 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 10681bd79
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.513 . Memory (MB): peak = 3040.590 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1fc31b328
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.647 . Memory (MB): peak = 3040.590 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1fc31b328
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.677 . Memory (MB): peak = 3040.590 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 68 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               5  |              66  |                                             50  |
+|  Constant propagation         |              24  |              51  |                                             49  |
+|  Sweep                        |               0  |               4  |                                            190  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             68  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 3040.590 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1fc31b328
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.695 . Memory (MB): peak = 3040.590 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 10 BRAM(s) out of a total of 21 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-201] Structural ODC has moved 4 WE to EN ports
+Number of BRAM Ports augmented: 6 newly gated: 5 Total Ports: 42
+Number of Flops added for Enable Generation: 1
+
+Ending PowerOpt Patch Enables Task | Checksum: 23ff75eb1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.257 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 23ff75eb1
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3232.148 ; gain = 191.559
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 15a8f3735
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.466 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 15a8f3735
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 15a8f3735
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+46 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 505.473
+INFO: [runtcl-4] Executing : report_drc -file tangerineNX_Z7_wrapper_drc_opted.rpt -pb tangerineNX_Z7_wrapper_drc_opted.pb -rpx tangerineNX_Z7_wrapper_drc_opted.rpx
+Command: report_drc -file tangerineNX_Z7_wrapper_drc_opted.rpt -pb tangerineNX_Z7_wrapper_drc_opted.pb -rpx tangerineNX_Z7_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 155de1c6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 12f9ef9e3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.454 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1acce07d8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1acce07d8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1acce07d8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1b6802041
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1b620a3c3
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1b43bd55e
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 144876ac4
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 6 LUTNM shape to break, 215 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 4, two critical 2, total 6, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 101 nets or LUTs. Breaked 6 LUTs, combined 95 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            6  |             95  |                   101  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            6  |             95  |                   101  |           0  |           9  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 275acfc87
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 2701e2b1d
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 2701e2b1d
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 260fcb339
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 261ea6ec9
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 2554bd544
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 2063a7735
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 1c4f84c35
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 2adff8e0d
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 2b5535a61
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 212f0b6e1
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1df41c619
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1df41c619
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 13ec2f19b
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.961 | TNS=-3127.715 |
+Phase 1 Physical Synthesis Initialization | Checksum: d445628d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.271 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: d445628d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.327 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 13ec2f19b
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-8.632. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: f580a172
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: f580a172
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: f580a172
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: f580a172
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: f580a172
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 13d22a6bf
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Ending Placer Task | Checksum: d1c1dad4
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+88 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file tangerineNX_Z7_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file tangerineNX_Z7_wrapper_utilization_placed.rpt -pb tangerineNX_Z7_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file tangerineNX_Z7_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.500 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.680 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 1.00s |  WALL: 0.71s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.632 | TNS=-3098.388 |
+Phase 1 Physical Synthesis Initialization | Checksum: d765a1f8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.484 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.632 | TNS=-3098.388 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: d765a1f8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.506 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.632 | TNS=-3098.388 |
+INFO: [Physopt 32-663] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[0].  Re-placed instance tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY_reg[0]
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.632 | TNS=-3098.110 |
+INFO: [Physopt 32-663] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[3].  Re-placed instance tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY_reg[3]
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.632 | TNS=-3097.832 |
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[4]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_1_n_0. Critical path length was reduced through logic transformation on cell tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_1_comp.
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.504 | TNS=-3097.112 |
+INFO: [Physopt 32-663] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_7_n_0.  Re-placed instance tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_7
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.498 | TNS=-3097.076 |
+INFO: [Physopt 32-710] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_1_n_0. Critical path length was reduced through logic transformation on cell tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_1_comp_1.
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.290 | TNS=-3093.164 |
+INFO: [Physopt 32-663] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_4_n_0.  Re-placed instance tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_4
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.269 | TNS=-3093.038 |
+INFO: [Physopt 32-710] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_2_n_0. Critical path length was reduced through logic transformation on cell tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_2_comp.
+INFO: [Physopt 32-735] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLetterY[5]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.191 | TNS=-3088.916 |
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_9_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/p_0_in[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pgCursorY_reg_n_0_[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_9_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/p_0_in[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pgCursorY_reg_n_0_[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.191 | TNS=-3088.916 |
+Phase 3 Critical Path Optimization | Checksum: d765a1f8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3232.148 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.191 | TNS=-3088.916 |
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_9_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/p_0_in[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pgCursorY_reg_n_0_[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/pgLutBackgroundColor[23]_i_9_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pixelGenInst/p_0_in[22]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net tangerineNX_Z7_i/vga_0/U0/pgCursorY_reg_n_0_[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-8.191 | TNS=-3088.916 |
+Phase 4 Critical Path Optimization | Checksum: d765a1f8
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-8.191 | TNS=-3088.916 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.441  |          9.472  |            0  |              0  |                     7  |           0  |           2  |  00:00:01  |
+|  Total          |          0.441  |          9.472  |            0  |              0  |                     7  |           0  |           3  |  00:00:01  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3232.148 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 1b8f7b112
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+152 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.519 . Memory (MB): peak = 3232.148 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 65e9fc77 ConstDB: 0 ShapeSum: ca195ebe RouteDB: 0
+Post Restoration Checksum: NetGraph: a23adf17 | NumContArr: b14fb972 | Constraints: 190a55ad | Timing: 0
+Phase 1 Build RT Design | Checksum: 16c94ee36
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 3322.508 ; gain = 90.359
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 16c94ee36
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 3322.508 ; gain = 90.359
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 16c94ee36
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 3322.508 ; gain = 90.359
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1ac88debd
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3337.055 ; gain = 104.906
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-8.089 | TNS=-3015.531| WHS=-2.958 | THS=-152.371|
+
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 164d17d96
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 3350.371 ; gain = 118.223
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-8.089 | TNS=-3014.955| WHS=N/A    | THS=N/A    |
+
+Phase 2.4 Update Timing for Bus Skew | Checksum: 164d17d96
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3365.461 ; gain = 133.312
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 9034
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 9034
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 128035da9
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3365.461 ; gain = 133.312
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 128035da9
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3365.461 ; gain = 133.312
+Phase 3 Initial Routing | Checksum: 1ecf42618
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 3397.582 ; gain = 165.434
+INFO: [Route 35-580] Design has 35 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++==================================+==================================+======================================================================+
+| Launch Setup Clock               | Launch Hold Clock                | Pin                                                                  |
++==================================+==================================+======================================================================+
+| clk64_tangerineNX_Z7_clk_wiz_0_0 | clk64_tangerineNX_Z7_clk_wiz_0_0 | tangerineNX_Z7_i/vga_0/U0/inputSyncVSInst/stage2Reg_reg[0]_srl2/D    |
+| clk64_tangerineNX_Z7_clk_wiz_0_0 | clk64_tangerineNX_Z7_clk_wiz_0_0 | tangerineNX_Z7_i/vgaDMA_0/U0/inputSyncInst/stage2Reg_reg[1]_srl2/D   |
+| clk64_tangerineNX_Z7_clk_wiz_0_0 | clk64_tangerineNX_Z7_clk_wiz_0_0 | tangerineNX_Z7_i/vgaDMA_0/U0/inputSyncInst/stage2Reg_reg[2]_srl2/D   |
+| clk64_tangerineNX_Z7_clk_wiz_0_0 | clk64_tangerineNX_Z7_clk_wiz_0_0 | tangerineNX_Z7_i/rootRegs_0/U0/inputSyncInst/stage2Reg_reg[0]_srl2/D |
+| clk64_tangerineNX_Z7_clk_wiz_0_0 | clk64_tangerineNX_Z7_clk_wiz_0_0 | tangerineNX_Z7_i/vgaDMA_0/U0/inputSyncInst/stage2Reg_reg[0]_srl2/D   |
++----------------------------------+----------------------------------+----------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 947
+ Number of Nodes with overlaps = 109
+ Number of Nodes with overlaps = 41
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-8.180 | TNS=-3089.554| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: a040f5b0
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 30
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-8.780 | TNS=-3130.251| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1f96ac163
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+Phase 4 Rip-up And Reroute | Checksum: 1f96ac163
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1dad3f0b8
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-8.180 | TNS=-3088.864| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: c5f76676
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: c5f76676
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+Phase 5 Delay and Skew Optimization | Checksum: c5f76676
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 167b2c02f
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-8.178 | TNS=-3082.519| WHS=0.018  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: e852d4ee
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+Phase 6 Post Hold Fix | Checksum: e852d4ee
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.76939 %
+  Global Horizontal Routing Utilization  = 2.14317 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+--GLOBAL Congestion:
+Utilization threshold used for congestion level computation: 0.85
+Congestion Report
+North Dir 1x1 Area, Max Cong = 49.5495%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 53.1532%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 70.5882%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 50%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 124858801
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 124858801
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1453d66b7
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-8.178 | TNS=-3082.519| WHS=0.018  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1453d66b7
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 3397.582 ; gain = 165.434
+INFO: [Route 35-16] Router Completed Successfully
+
+Phase 11 Post-Route Event Processing
+Phase 11 Post-Route Event Processing | Checksum: 11b6992c8
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 3397.582 ; gain = 165.434
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+172 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:23 . Memory (MB): peak = 3397.582 ; gain = 165.434
+INFO: [runtcl-4] Executing : report_drc -file tangerineNX_Z7_wrapper_drc_routed.rpt -pb tangerineNX_Z7_wrapper_drc_routed.pb -rpx tangerineNX_Z7_wrapper_drc_routed.rpx
+Command: report_drc -file tangerineNX_Z7_wrapper_drc_routed.rpt -pb tangerineNX_Z7_wrapper_drc_routed.pb -rpx tangerineNX_Z7_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file tangerineNX_Z7_wrapper_methodology_drc_routed.rpt -pb tangerineNX_Z7_wrapper_methodology_drc_routed.pb -rpx tangerineNX_Z7_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file tangerineNX_Z7_wrapper_methodology_drc_routed.rpt -pb tangerineNX_Z7_wrapper_methodology_drc_routed.pb -rpx tangerineNX_Z7_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file tangerineNX_Z7_wrapper_power_routed.rpt -pb tangerineNX_Z7_wrapper_power_summary_routed.pb -rpx tangerineNX_Z7_wrapper_power_routed.rpx
+Command: report_power -file tangerineNX_Z7_wrapper_power_routed.rpt -pb tangerineNX_Z7_wrapper_power_summary_routed.pb -rpx tangerineNX_Z7_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+182 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file tangerineNX_Z7_wrapper_route_status.rpt -pb tangerineNX_Z7_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file tangerineNX_Z7_wrapper_timing_summary_routed.rpt -pb tangerineNX_Z7_wrapper_timing_summary_routed.pb -rpx tangerineNX_Z7_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file tangerineNX_Z7_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file tangerineNX_Z7_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file tangerineNX_Z7_wrapper_bus_skew_routed.rpt -pb tangerineNX_Z7_wrapper_bus_skew_routed.pb -rpx tangerineNX_Z7_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.572 . Memory (MB): peak = 3442.691 ; gain = 31.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qubeck/Documents/Development/ProjektyVHDL/Zynq7020CoreBoard/tangerineNX_Z7/tangerineNX_Z7.runs/impl_1/tangerineNX_Z7_wrapper_routed.dcp' has been generated.
+Command: write_bitstream -force tangerineNX_Z7_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A4)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell tangerineNX_Z7_i/ps2Host_0/U0/ps2bFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin tangerineNX_Z7_i/ps2Host_0/U0/ps2bFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A1)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC RTSTAT-10] No routable loads: 68 net(s) have no routable loads. The problem bus(es) and/or net(s) are tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, tangerineNX_Z7_i/ps2Host_0/U0/ps2bFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, tangerineNX_Z7_i/ps2Host_0/U0/ps2aFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], tangerineNX_Z7_i/is2Controller_0/U0/i2sControllerFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], tangerineNX_Z7_i/ps2Host_0/U0/ps2bFifoInst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], tangerineNX_Z7_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]... and (the first 15 of 44 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 4 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./tangerineNX_Z7_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 4010.707 ; gain = 568.016
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  6 12:02:25 2025...
